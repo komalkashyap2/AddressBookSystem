@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{12081B93-BE54-4AEF-8A23-E03D7672D686}</ProjectGuid>
+    <ProjectGuid>{120E5E85-667E-4886-8276-9D109FE51CA9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AddressBookSystem</RootNamespace>
-    <AssemblyName>AddressBookSystem</AssemblyName>
+    <RootNamespace>UC1_UC2_UC3_AddUpdateRemove</RootNamespace>
+    <AssemblyName>UC1_UC2_UC3_AddUpdateRemove</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressBook.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="Contact1.cs" />
+    <Compile Include="contact.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

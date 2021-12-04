@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddressBookSystem
+namespace UC1_UC2_UC3_AddUpdateRemove
 {
-    class Program
+      class Program
     {
-
-
         static void Main(string[] args)
         {
             AddressBook addressBook = new AddressBook();
@@ -86,10 +84,8 @@ namespace AddressBookSystem
                     Console.WriteLine("What would you like to do?");
                     userInput = Console.ReadLine().Trim();
                     UpdateAddressBook(userInput);
-
                 }
             }
         }
-
-    }
+      }
 }

@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace AddressBookSystem
 {
-    class Contact
+      class Contact1
     {
         public string Name { get; set; }
         public string Address { get; set; }
 
-        public Contact(string name, string address)
+        public Contact1(string name, string address)
         {
             Name = name;
             Address = address;
-
         }
     }
 }
